@@ -7,7 +7,7 @@
 #define BOARD_MODEL_URL		"http://www.hiwifi.com/"
 #define BOARD_BOOT_TIME		30
 #define BOARD_FLASH_TIME		120
-#define BOARD_GPIO_BTN_WIFI 10
+#define BOARD_GPIO_BTN_FN1 10  //wifi
 #define BOARD_GPIO_BTN_RESET    18
 #define BOARD_GPIO_BTN_WPS 8
 #undef  BOARD_GPIO_LED_ALL
@@ -30,5 +30,5 @@
 #define BOARD_NUM_ETH_EPHY      5
 #define BOARD_HAS_EPHY_L1000	1
 #define BOARD_HAS_EPHY_W1000	1
-#define BOARD_NUM_UPHY_USB3	1
-#define BOARD_USB_PORT_SWAP	1
+#define BOARD_NUM_UPHY_USB3	0
+#define BOARD_USB_PORT_SWAP	0
