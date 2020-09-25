@@ -7,9 +7,9 @@
 #define BOARD_MODEL_URL		"http://www.hiwifi.com/"
 #define BOARD_BOOT_TIME		30
 #define BOARD_FLASH_TIME		120
-#undef  BOARD_GPIO_BTN_FN1
+#define BOARD_GPIO_BTN_WIFI 10
 #define BOARD_GPIO_BTN_RESET    18
-#undef  BOARD_GPIO_BTN_WPS
+#define BOARD_GPIO_BTN_WPS 8
 #undef  BOARD_GPIO_LED_ALL
 #define BOARD_GPIO_LED_WIFI	7
 #undef  BOARD_GPIO_LED_SW2G
